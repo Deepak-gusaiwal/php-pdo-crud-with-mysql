@@ -1,0 +1,81 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.commonbtn{
+    padding: 0.4rem 0.8rem;
+    background-color:#dadada;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+.commonbtn:hover{
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #99ecff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.164);
+    padding: 1rem;
+}
+input{
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: aliceblue;
+}
+button{
+    padding: 0.5rem;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+.gridContainer{
+    max-width: 1200px;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gridBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0px 0px 5px rgba(140, 140, 140, 0.482);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+}
+.gridBox p{
+    text-align: center;
+}
